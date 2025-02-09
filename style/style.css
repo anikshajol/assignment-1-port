@@ -23,6 +23,27 @@
   text-align: center;
 }
 
+.description {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+  opacity: 0.7;
+}
+
+.secondary-title {
+  color: rgba(13, 19, 33, 0.7);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+.text-center {
+  text-align: center;
+}
+
 /* shared style end */
 
 /* header area start */
@@ -46,7 +67,6 @@ nav button {
   background: url(../assets/Hero-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
-  margin-bottom: 150px;
 }
 
 .banner {
@@ -91,3 +111,62 @@ nav button {
   font-size: 20px;
   font-weight: 600;
 }
+
+/* main are start */
+
+/* why-web-development section start */
+
+#why-web-development-container {
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.02);
+  padding: 80px 97px 80px 97px;
+  height: 1323px;
+  margin: 74px 150px 90px 150px;
+  padding: 80px 97px 80px 97px;
+}
+
+.development-container .description {
+  margin-top: 24px;
+  margin-bottom: 48px;
+}
+
+.card {
+  border-radius: 16px;
+  background: linear-gradient(
+    90deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
+  margin: 32px 0;
+}
+
+.card-flex {
+  display: flex;
+  gap: 98px;
+  align-items: center;
+}
+.card-flex-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 98px;
+  align-items: center;
+  border-radius: 16px;
+
+  background: linear-gradient(
+    270deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+.card-content {
+  padding: 32px 25px;
+}
+.card-content .description {
+  margin-bottom: 32px;
+  margin-top: 16px;
+}
+
+/* why-web-development section end */
+
+/* main are end */

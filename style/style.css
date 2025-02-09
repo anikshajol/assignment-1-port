@@ -169,4 +169,148 @@ nav button {
 
 /* why-web-development section end */
 
+/* inspiration section start */
+#inspiration {
+  margin: 0 150px;
+}
+.inspiration-content-container {
+  margin: 0 144px;
+  text-align: center;
+}
+
+.inspiration-container .description {
+  margin-top: 24px;
+  margin-bottom: 80px;
+}
+
+.inspiration-container-video iframe {
+  display: block;
+  margin: 0 auto;
+  border-radius: 16px;
+  margin-bottom: 180px;
+}
+
+/* inspiration section end */
+
+/* current-target-section start */
+#current-target-container {
+  height: 437px;
+  margin: 0 150px;
+}
+
+.current-target-content-container .description {
+  margin-top: 24px;
+  margin-bottom: 48px;
+  margin-left: 144px;
+  margin-right: 144px;
+}
+
+.current-target-card-container {
+  display: flex;
+  gap: 24px;
+}
+
+.target-card {
+  border-radius: 16px;
+  /* margin: 0px 24px; */
+  padding: 42px;
+}
+
+.target-card p {
+  margin-top: 8px;
+  margin-bottom: 24px;
+}
+
+.target-card a {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-decoration-line: underline;
+}
+
+.html {
+  background: rgba(255, 76, 30, 0.05);
+}
+
+.target-card-content {
+  /* margin: 0 24px; */
+}
+
+#contact {
+  position: relative;
+  border-radius: 16px;
+  background: url(../assets/handshake.jpg);
+  background-color: rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2);
+  /* filter: brightness(0.4); */
+  background-blend-mode: darken;
+  padding: 64px 48px 64px 48px;
+  height: 313px;
+  margin-left: 150px;
+  margin-right: 150px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#contact::before {
+  border-radius: 16px;
+  content: "";
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+}
+
+.contact-us-content {
+  padding: 64px 48px 64px 48px;
+  margin: 0 157px;
+}
+
+.contact-us-content h2,
+.contact-us-content p,
+.contact-us-content input {
+  position: relative;
+  color: rgb(255, 255, 255);
+  z-index: 2;
+}
+
+.contact-us-content input[type="email"] {
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+
+  background: rgb(255, 255, 255);
+  color: rgba(13, 19, 33, 0.6);
+  padding: 19px 20px 19px 20px;
+  width: 500px;
+}
+.contact-us-content input[type="submit"] {
+  padding: 17px 20px 17px 20px;
+  color: rgb(13, 19, 33);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.contact-form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
 /* main are end */
+
+footer {
+  padding: 32px 150px 32px 150px;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.03);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 80px;
+}
